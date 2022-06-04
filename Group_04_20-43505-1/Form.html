@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="\Group_04_20-43505-1\">
+        <link rel="icon" href="pngfind.com-privacy-icon-png-4703547.png">
+    </head>
+    <body bgcolor="gray">
+        <title>Sign up</title>
+    <form action="formData.php" method="post" autocomplete="off" target="_blank" novalidate>
+        <fieldset>
+            <legend>General</legend>
+            <label for="fname">First Name</label>
+            <input type="text", id="fname" name="fname" placeholder="Enter your first lame"> <br><br>
+            <label for="lname">Last Name</label>
+            <input type="text", id="lname" name="lname" placeholder="Enter your last name"> <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="Male" name="gender" value="male">Male
+            <input type="radio" id="Female" name="gender" value="female">Female
+            <br><br>            
+        </fieldset>
+        <fieldset>
+            <legend>Contact</legend>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address"> <br><br>
+            <label for="mobNo">Mobile No</label>
+            <input type="number" id="mobNo" name="mobNo" placeholder="Enter your mobile number"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="address">Street/Home/Road</label>
+            <input type="text" id="address" name="address" placeholder="Enter your home address"> <br><br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="bd">Bangladesh</option>
+                <option value="usa">United States of America</option>
+                <option value="uk">United Kingdom</option>        
+            </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Register">
+    </form>
+    </body>
+</html>
